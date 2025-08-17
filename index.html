@@ -44,8 +44,8 @@
             font-family: "Franklin Gothic Medium";
             margin-left: 100px;
             margin-bottom: 0px;
-            margin-top: 10px;
-            position: absolute
+            margin-top: 0px;
+            position: relative;
 ;
         }
 
@@ -57,28 +57,30 @@
             color: black;
             font-family: "Roboto";
             justify-content: center;
-            align-items: center;
+            line-height: 35px;
             border-radius: 8px;
             font-weight: 400;
             margin-left: 100px;
-            margin-top: 250px;
-            position: absolute
+            margin-top: 0px;
+            display: inline-block;
+            position: relative;
             
         ;}
 
         .container-principal{
             position: relative;
+            height: 400px;
         }
 
         .img-tela-inicial{width: 100%; height: 400px;
         position: absolute;
-        object-fit: cover;}
+        object-fit: cover;
+        z-index: -1;}
 
         .img-produto{width: 100px;
              border-radius: 10px;}
 
-        body{margin: 0;
-        position: relative;}
+        body{margin: 0;}
     </style>
 </head>
 
@@ -99,14 +101,12 @@
     
     <main>
         <div class="container-principal">
-            <div><img class="img-tela-inicial" src="https://sdmntprwestus.oaiusercontent.com/files/00000000-d004-6230-a00e-494e101ed5bc/raw?se=2025-08-17T00%3A32%3A48Z&sp=r&sv=2024-08-04&sr=b&scid=ade1dee0-00fd-5558-970c-a5c57e0085ff&skoid=789f404f-91a9-4b2f-932c-c44965c11d82&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-16T00%3A46%3A40Z&ske=2025-08-17T00%3A46%3A40Z&sks=b&skv=2024-08-04&sig=/7cDFmv1D5nCiZWQ9C2AM4kNrrJbpkQW%2BQ95vBO1MsQ%3D" alt=""></div>
-        </div>
-            <div>
-                <h1 class="title">OS MELHORES <br> HOT DOGS <br> DA CIDADE</h1>
-            </div>
-            <div>
+            <img class="img-tela-inicial" src="https://sdmntpritalynorth.oaiusercontent.com/files/00000000-fdb4-6246-81e8-f30314721437/raw?se=2025-08-17T01%3A02%3A43Z&sp=r&sv=2024-08-04&sr=b&scid=2f99dcc2-810a-5030-b78c-a19f0634a65b&skoid=0da8417a-a4c3-4a19-9b05-b82cee9d8868&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-16T22%3A59%3A04Z&ske=2025-08-17T22%3A59%3A04Z&sks=b&skv=2024-08-04&sig=9Pgrk/Vv/cIxclSQH/YILIK1nK7xFWHX2YG3%2BiwBy8c%3D" alt="">
+            <h1 class="title">OS MELHORES <br> HOT DOGS <br> DA CIDADE</h1>
+
+
                 <a href=""><span class="buttom-header">FAZER PEDIDO AGORA</span></a>
-            </div>
+        </div>
         <!-- Imagem do Cachorro quente-->
              
         <div class="fundo02">
