@@ -36,6 +36,9 @@
             margin-top: 0px;}
 
         .fundo02{background-color: #FFF8EE;
+            display: flex;
+            flex-wrap: wrap;            
+            padding-left: 30px;
         }
 
         .title{
@@ -61,7 +64,7 @@
             justify-content: center;
             line-height: 35px;
             border-radius: 8px;
-            font-weight: 400;
+            font-weight: bold;
             margin-left: 100px;
             margin-top: 0px;
             position: relative;
@@ -79,40 +82,71 @@
             object-fit: cover;
             z-index: -1;}
 
-        .img-produto{width: 220px;
+        .img-produto{width: 180px;
             border-radius: 10px;
+            margin: 0px;
+            margin-bottom: 15px;
             }
         
         h3{font-family: "Roboto";
-            font-size: 24px;
-            margin-top: 5px;
+            font-size: 18px;
+            margin: 0px;
             margin-bottom: 10px;
-            display: flex;
-    }
+            ;
+        }
         
         .preco01{
             font-family: "Roboto";
             font-size: 20px;
             font-weight: bold;
-            display: flex;
+            margin-bottom: 20px
+            ;
+
         }
 
         .buttom-buy01{
             font-family: "Roboto";
+            font-size: 14px;
             background-color: #F6AF30;
             color: #FFF7ED;
-            width: 230px;
+            width: 180px;
             height: 40px;
             display: flex;
             justify-content: center;
             line-height: 40px;
             border-radius: 10px;
-            margin-top: 10px;
 
         }
 
-        .sectio01{width: 100%;
-            margin-left: 30px;}
+        section{display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            background-color: #FFFFFF;
+            margin: 60px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+            padding-top: 20px;
+            padding-left: 20px;
+            width: 200px;
+            height: 330px;
+            border-radius: 10px;
+            }
+        
+        .promocao{display: flex;
+            width: 340px;
+            height: 500px;
+        }
+        .promocao .img-produto{width: 320px;
+        }
+
+        .promocao .buttom-buy01{width: 320px;
+            height: 70px;
+            border-radius: 20px;
+            font-size: 25px;
+            line-height: 70px;
+            font-weight: bold;
+        }
+
         body{margin: 0;}
     </style>
 </head>
@@ -134,45 +168,54 @@
     
     <main>
         <div class="container-principal">
-            <img class="img-tela-inicial" src="https://sdmntprwestus.oaiusercontent.com/files/00000000-d004-6230-a00e-494e101ed5bc/raw?se=2025-08-17T01%3A46%3A37Z&sp=r&sv=2024-08-04&sr=b&scid=926bb5d6-305c-5266-b725-903fd59aa22b&skoid=0da8417a-a4c3-4a19-9b05-b82cee9d8868&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-17T00%3A41%3A55Z&ske=2025-08-18T00%3A41%3A55Z&sks=b&skv=2024-08-04&sig=ufoiUBOhcTa9HFe7mBodOsQRtViY9NAq%2BpoYOHXbM44%3D" alt="">
+            <img class="img-tela-inicial" src="https://sdmntprwestus.oaiusercontent.com/files/00000000-d004-6230-a00e-494e101ed5bc/raw?se=2025-08-17T23%3A13%3A01Z&sp=r&sv=2024-08-04&sr=b&scid=66b12497-fcf5-5ab6-9ea3-d5094c556582&skoid=31bc9c1a-c7e0-460a-8671-bf4a3c419305&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-16T23%3A49%3A24Z&ske=2025-08-17T23%3A49%3A24Z&sks=b&skv=2024-08-04&sig=KvpJlj67URCff0lCtGfCj5Y4gEbo/izH2%2BBsAiRTaVQ%3D" alt="">
             <h1 class="title">OS MELHORES <br> HOT DOGS <br> DA CIDADE</h1>
-
-
-                <a href=""><span class="buttom-header">FAZER PEDIDO AGORA</span></a>
+            <a href=""><span class="buttom-header">FAZER PEDIDO AGORA</span></a>
         </div>
         <!-- Imagem do Cachorro quente-->
              
         <div class="fundo02">
             <section class="section01">
                 
-                <img class="img-produto" src="https://sdmntprwestus.oaiusercontent.com/files/00000000-4578-6230-9f47-e86c7bd9e588/raw?se=2025-08-17T01%3A46%3A37Z&sp=r&sv=2024-08-04&sr=b&scid=37171ab5-c111-5a44-8fb0-b47716272bf4&skoid=0da8417a-a4c3-4a19-9b05-b82cee9d8868&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-16T22%3A09%3A21Z&ske=2025-08-17T22%3A09%3A21Z&sks=b&skv=2024-08-04&sig=KmnQuZoaI04ic1xxRx3upTL0KImHaQiFOlFZeGoF9Jo%3D" alt="">
-                <h3>Hot Dog Tradicional</h3>
-                <span class="preco01">R$ 19,90</span>
+                <img class="img-produto " src="https://sdmntprwestus.oaiusercontent.com/files/00000000-4578-6230-9f47-e86c7bd9e588/raw?se=2025-08-17T23%3A13%3A01Z&sp=r&sv=2024-08-04&sr=b&scid=3c95aa42-51b7-541d-b79a-9e2635d26970&skoid=31bc9c1a-c7e0-460a-8671-bf4a3c419305&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-17T13%3A35%3A22Z&ske=2025-08-18T13%3A35%3A22Z&sks=b&skv=2024-08-04&sig=AWy2yO4vRZ7wXDEDukFZr%2BOfYhIFR/MIcC3hv67R57k%3D" alt="">
+                <h3>Dog Tradicional</h3>
+                <span class="preco01">R$ 15,90</span>
                 <a href=""><span class="buttom-buy01">ADICIONAR AO CARRINHO</span></a>
             </section>
             
             <section>
-                
-                <div><img class="img-produto"src="" alt=""></div>
-                <div><h3>Cachorro quente tradicional</h3></div>
-                <div><p>R$ 19,90</p></div>
-                <div><p>ADICIONAR AO CARRINHO</p></div>
+                <img class="img-produto " src="https://sdmntprwestus.oaiusercontent.com/files/00000000-4578-6230-9f47-e86c7bd9e588/raw?se=2025-08-17T23%3A13%3A01Z&sp=r&sv=2024-08-04&sr=b&scid=3c95aa42-51b7-541d-b79a-9e2635d26970&skoid=31bc9c1a-c7e0-460a-8671-bf4a3c419305&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-17T13%3A35%3A22Z&ske=2025-08-18T13%3A35%3A22Z&sks=b&skv=2024-08-04&sig=AWy2yO4vRZ7wXDEDukFZr%2BOfYhIFR/MIcC3hv67R57k%3D" alt="">
+                <h3>Hot Dog Tradicional</h3>
+                <span class="preco01">R$ 19,90</span>
+                <a href=""><span class="buttom-buy01">ADICIONAR AO CARRINHO</span></a>
             </section>
 
             <section>
-                
-                <div><img src="" alt=""></div>
-                <div><h3>Cachorro quente tradicional</h3></div>
-                <div><p>R$ 19,90</p></div>
-                <div><p>ADICIONAR AO CARRINHO</p></div>
+                <img class="img-produto " src="https://sdmntprwestus.oaiusercontent.com/files/00000000-4578-6230-9f47-e86c7bd9e588/raw?se=2025-08-17T23%3A13%3A01Z&sp=r&sv=2024-08-04&sr=b&scid=3c95aa42-51b7-541d-b79a-9e2635d26970&skoid=31bc9c1a-c7e0-460a-8671-bf4a3c419305&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-17T13%3A35%3A22Z&ske=2025-08-18T13%3A35%3A22Z&sks=b&skv=2024-08-04&sig=AWy2yO4vRZ7wXDEDukFZr%2BOfYhIFR/MIcC3hv67R57k%3D" alt="">
+                <h3>Hot Dog Tradicional</h3>
+                <span class="preco01">R$ 19,90</span>
+                <a href=""><span class="buttom-buy01">ADICIONAR AO CARRINHO</span></a>
             </section>
 
             <section>
-                
-                <div><img src="" alt=""></div>
-                <div><h3>Cachorro quente tradicional</h3></div>
-                <div><p>R$ 19,90</p></div>
-                <div><p>ADICIONAR AO CARRINHO</p></div>
+                <img class="img-produto " src="https://sdmntprwestus.oaiusercontent.com/files/00000000-4578-6230-9f47-e86c7bd9e588/raw?se=2025-08-17T23%3A13%3A01Z&sp=r&sv=2024-08-04&sr=b&scid=3c95aa42-51b7-541d-b79a-9e2635d26970&skoid=31bc9c1a-c7e0-460a-8671-bf4a3c419305&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-17T13%3A35%3A22Z&ske=2025-08-18T13%3A35%3A22Z&sks=b&skv=2024-08-04&sig=AWy2yO4vRZ7wXDEDukFZr%2BOfYhIFR/MIcC3hv67R57k%3D" alt="">
+                <h3>Hot Dog Tradicional</h3>
+                <span class="preco01">R$ 19,90</span>
+                <a href=""><span class="buttom-buy01">ADICIONAR AO CARRINHO</span></a>
+            </section>
+
+            <section class="promocao">
+                <img class="img-produto " src="https://sdmntprwestus.oaiusercontent.com/files/00000000-4578-6230-9f47-e86c7bd9e588/raw?se=2025-08-17T23%3A13%3A01Z&sp=r&sv=2024-08-04&sr=b&scid=3c95aa42-51b7-541d-b79a-9e2635d26970&skoid=31bc9c1a-c7e0-460a-8671-bf4a3c419305&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-17T13%3A35%3A22Z&ske=2025-08-18T13%3A35%3A22Z&sks=b&skv=2024-08-04&sig=AWy2yO4vRZ7wXDEDukFZr%2BOfYhIFR/MIcC3hv67R57k%3D" alt="">
+                <h3>Hot Dog Tradicional</h3>
+                <span></span><span class="preco01">R$ 19,90</span>
+                <a href=""><span class="buttom-buy01">ADICIONAR AO CARRINHO</span></a>
+            </section>
+            
+            <section class="promocao">
+                <img class="img-produto " src="https://sdmntprwestus.oaiusercontent.com/files/00000000-4578-6230-9f47-e86c7bd9e588/raw?se=2025-08-17T23%3A13%3A01Z&sp=r&sv=2024-08-04&sr=b&scid=3c95aa42-51b7-541d-b79a-9e2635d26970&skoid=31bc9c1a-c7e0-460a-8671-bf4a3c419305&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-17T13%3A35%3A22Z&ske=2025-08-18T13%3A35%3A22Z&sks=b&skv=2024-08-04&sig=AWy2yO4vRZ7wXDEDukFZr%2BOfYhIFR/MIcC3hv67R57k%3D" alt="">
+                <h3>Hot Dog Tradicional</h3>
+                <span></span><span class="preco01">R$ 19,90</span>
+                <a href=""><span class="buttom-buy01">ADICIONAR AO CARRINHO</span></a>
             </section>
 
         </div>
