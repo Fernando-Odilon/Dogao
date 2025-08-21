@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dogão do Ivo</title>
     <link rel="stylesheet" href="https://sdmntprwestus.oaiusercontent.com/files/00000000-d004-6230-a00e-494e101ed5bc/raw?se=2025-08-19T03%3A03%3A32Z&sp=r&sv=2024-08-04&sr=b&scid=38705e2e-7d5d-5c0d-9f02-8f4f8f9963b3&skoid=789f404f-91a9-4b2f-932c-c44965c11d82&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-18T21%3A16%3A21Z&ske=2025-08-19T21%3A16%3A21Z&sks=b&skv=2024-08-04&sig=OT1luhoReyox91vj8Bvub7pTWOpESB62Rvp1v2rOoJI%3D">
-    <link rel="stylesheet" href="https://sdmntprwestus.oaiusercontent.com/files/00000000-4578-6230-9f47-e86c7bd9e588/raw?se=2025-08-19T22%3A40%3A03Z&sp=r&sv=2024-08-04&sr=b&scid=b396def0-11da-5af7-a568-8a2a92350b73&skoid=ea1de0bc-0467-43d6-873a-9a5cf0a9f835&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-19T20%3A15%3A43Z&ske=2025-08-20T20%3A15%3A43Z&sks=b&skv=2024-08-04&sig=5RpX8j%2BLM/y764pFBTDKzmYgJKbUeoDGDJ6o289j0HY%3D">
+    <link rel="stylesheet" href="http://sdmntprwestus.oaiusercontent.com/files/00000000-4578-6230-9f47-e86c7bd9e588/raw?se=2025-08-20T23%3A14%3A49Z&sp=r&sv=2024-08-04&sr=b&scid=f3e5f089-9401-5ffb-8186-853f27112baf&skoid=e9d2f8b1-028a-4cff-8eb1-d0e66fbefcca&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-20T21%3A14%3A34Z&ske=2025-08-21T21%3A14%3A34Z&sks=b&skv=2024-08-04&sig=ntiJCioueoewJIKesbORe6qZfFO6W%2BRAdsw4pxiG5YY%3D">
     <style>
         nav{background-color:#C13021;
             width: 100%;
@@ -40,6 +40,8 @@
             display: flex;
             flex-wrap: wrap;            
             padding-left: 30px;
+            padding-bottom: 40px;
+            
         }
 
         .title{
@@ -153,20 +155,25 @@
             line-height: 70px;
             font-weight: bold;
         }
-        .socialmidia {background-color: #FFF8EE;
+        .socialmidia {background-color:#C13021;
+            color: #FFF7ED;
             display: flex;
             flex-direction: row;
             justify-content: space-around;
             align-items: flex-start; 
             padding: 30px;
+            padding-left: 80px;
             margin: 0;
             flex-wrap: wrap;
+            border-top-right-radius: 10px;
+            border-top-left-radius: 10px;
         }
 
         .sobre-nos-container {display: flex; 
             align-items: flex-start; 
             gap: 20px; /* Espaço só entre os itens */
             width: 50%;
+            padding-top: 45px;
         }
 
         .img-sobre-nos {
@@ -194,23 +201,92 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            width: 30%;   
+            width: 30%;
+            padding: 100px;
+            gap: 40px
+            ;   
         }
 
         .redes-sociais {
             display: flex;
-            flex-direction: column;
-            gap: 10px;
-
+            flex-direction: row;
+            gap: 0px 50px;
+            align-items: center;
         }
         
-        .redes-sociais img{width: 60px;}
+        .contato-container h2{
+            margin: 10px;
+            display: inline;
 
-        .social-item {
+        }
+        .redes-sociais img{width: 80px;
+        }
+
+        .fundo02 h2{font-family: "Roboto";
+            font-size: 30px;
+        }
+
+        body{padding: 0;
+        margin: 0;}
+
+
+
+        footer {
+            background-color: #C13021;
+            color: #FFF8EE;
+            font-family: "Roboto";
+            padding: 40px 20px 20px;
+            
+        }
+
+        .footer-container {
             display: flex;
-            align-items: center;
-            gap: 10px;}
+            justify-content: space-around;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
 
+        .footer-section {
+            flex: 1;
+            min-width: 200px;
+            margin: 20px;
+        }
+
+        .footer-section h3 {
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+
+        .footer-section p, .footer-section a {
+            font-size: 18px;
+            color: #FFF8EE;
+            text-decoration: none;
+            line-height: 1.6;
+        }
+
+        .footer-section ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .footer-section li {
+            margin-bottom: 10px;
+        }
+
+        .social-icons a img {
+            width: 40px;
+            height: 40px;
+            margin-right: 15px;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+            padding-top: 20px;
+            margin-top: 20px;
+        }
     </style>
 </head>
 
@@ -231,61 +307,63 @@
     
     <main>
         <div class="container-principal">
-            <img class="img-tela-inicial" src="https://sdmntprwestus.oaiusercontent.com/files/00000000-d004-6230-a00e-494e101ed5bc/raw?se=2025-08-19T03%3A03%3A32Z&sp=r&sv=2024-08-04&sr=b&scid=38705e2e-7d5d-5c0d-9f02-8f4f8f9963b3&skoid=789f404f-91a9-4b2f-932c-c44965c11d82&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-18T21%3A16%3A21Z&ske=2025-08-19T21%3A16%3A21Z&sks=b&skv=2024-08-04&sig=OT1luhoReyox91vj8Bvub7pTWOpESB62Rvp1v2rOoJI%3D" alt="">
+            <img class="img-tela-inicial" src="https://sdmntprwestus.oaiusercontent.com/files/00000000-d004-6230-a00e-494e101ed5bc/raw?se=2025-08-20T23%3A14%3A50Z&sp=r&sv=2024-08-04&sr=b&scid=a1690133-ed75-535c-b19f-f3f8c42e31be&skoid=e9d2f8b1-028a-4cff-8eb1-d0e66fbefcca&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-20T14%3A49%3A09Z&ske=2025-08-21T14%3A49%3A09Z&sks=b&skv=2024-08-04&sig=bQuFSffuB1XbJ3lBvpB2AXum%2BjkIkeAIxqs2uAgUZTY%3D" alt="">
             <h1 class="title">OS MELHORES <br> HOT DOGS <br> DA CIDADE</h1>
             <a href=""><span class="buttom-header">FAZER PEDIDO AGORA</span></a>
         </div>
         <!-- Imagem do Cachorro quente-->
              
         <div class="fundo02">
-            <section>
+            <h2>CARDÁPIO</h2>
+            <div class="fundo02">
+                <section>
+                    
+                    <img class="img-produto " src="http://sdmntprwestus.oaiusercontent.com/files/00000000-4578-6230-9f47-e86c7bd9e588/raw?se=2025-08-20T23%3A14%3A49Z&sp=r&sv=2024-08-04&sr=b&scid=f3e5f089-9401-5ffb-8186-853f27112baf&skoid=e9d2f8b1-028a-4cff-8eb1-d0e66fbefcca&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-20T21%3A14%3A34Z&ske=2025-08-21T21%3A14%3A34Z&sks=b&skv=2024-08-04&sig=ntiJCioueoewJIKesbORe6qZfFO6W%2BRAdsw4pxiG5YY%3D" alt="">
+                    <h3>Dog Tradicional</h3>
+                    <span class="preco01">R$ 15,90</span>
+                    <a href=""><span class="buttom-buy01">ADICIONAR AO CARRINHO</span></a>
+                </section>
                 
-                <img class="img-produto " src="https://sdmntprwestus.oaiusercontent.com/files/00000000-4578-6230-9f47-e86c7bd9e588/raw?se=2025-08-19T22%3A40%3A03Z&sp=r&sv=2024-08-04&sr=b&scid=b396def0-11da-5af7-a568-8a2a92350b73&skoid=ea1de0bc-0467-43d6-873a-9a5cf0a9f835&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-19T20%3A15%3A43Z&ske=2025-08-20T20%3A15%3A43Z&sks=b&skv=2024-08-04&sig=5RpX8j%2BLM/y764pFBTDKzmYgJKbUeoDGDJ6o289j0HY%3D" alt="">
-                <h3>Dog Tradicional</h3>
-                <span class="preco01">R$ 15,90</span>
-                <a href=""><span class="buttom-buy01">ADICIONAR AO CARRINHO</span></a>
-            </section>
-            
-            <section>
-                <img class="img-produto " src="https://sdmntprwestus.oaiusercontent.com/files/00000000-4578-6230-9f47-e86c7bd9e588/raw?se=2025-08-19T22%3A40%3A03Z&sp=r&sv=2024-08-04&sr=b&scid=b396def0-11da-5af7-a568-8a2a92350b73&skoid=ea1de0bc-0467-43d6-873a-9a5cf0a9f835&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-19T20%3A15%3A43Z&ske=2025-08-20T20%3A15%3A43Z&sks=b&skv=2024-08-04&sig=5RpX8j%2BLM/y764pFBTDKzmYgJKbUeoDGDJ6o289j0HY%3D" alt="">
-                <h3>Hot Dog Tradicional</h3>
-                <span class="preco01">R$ 19,90</span>
-                <a href=""><span class="buttom-buy01">ADICIONAR AO CARRINHO</span></a>
-            </section>
+                <section>
+                    <img class="img-produto " src="http://sdmntprwestus.oaiusercontent.com/files/00000000-4578-6230-9f47-e86c7bd9e588/raw?se=2025-08-20T23%3A14%3A49Z&sp=r&sv=2024-08-04&sr=b&scid=f3e5f089-9401-5ffb-8186-853f27112baf&skoid=e9d2f8b1-028a-4cff-8eb1-d0e66fbefcca&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-20T21%3A14%3A34Z&ske=2025-08-21T21%3A14%3A34Z&sks=b&skv=2024-08-04&sig=ntiJCioueoewJIKesbORe6qZfFO6W%2BRAdsw4pxiG5YY%3D" alt="">
+                    <h3>Hot Dog Tradicional</h3>
+                    <span class="preco01">R$ 19,90</span>
+                    <a href=""><span class="buttom-buy01">ADICIONAR AO CARRINHO</span></a>
+                </section>
 
-            <section>
-                <img class="img-produto " src="https://sdmntprwestus.oaiusercontent.com/files/00000000-4578-6230-9f47-e86c7bd9e588/raw?se=2025-08-19T22%3A40%3A03Z&sp=r&sv=2024-08-04&sr=b&scid=b396def0-11da-5af7-a568-8a2a92350b73&skoid=ea1de0bc-0467-43d6-873a-9a5cf0a9f835&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-19T20%3A15%3A43Z&ske=2025-08-20T20%3A15%3A43Z&sks=b&skv=2024-08-04&sig=5RpX8j%2BLM/y764pFBTDKzmYgJKbUeoDGDJ6o289j0HY%3D" alt="">
-                <h3>Hot Dog Tradicional</h3>
-                <span class="preco01">R$ 19,90</span>
-                <a href=""><span class="buttom-buy01">ADICIONAR AO CARRINHO</span></a>
-            </section>
+                <section>
+                    <img class="img-produto " src="http://sdmntprwestus.oaiusercontent.com/files/00000000-4578-6230-9f47-e86c7bd9e588/raw?se=2025-08-20T23%3A14%3A49Z&sp=r&sv=2024-08-04&sr=b&scid=f3e5f089-9401-5ffb-8186-853f27112baf&skoid=e9d2f8b1-028a-4cff-8eb1-d0e66fbefcca&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-20T21%3A14%3A34Z&ske=2025-08-21T21%3A14%3A34Z&sks=b&skv=2024-08-04&sig=ntiJCioueoewJIKesbORe6qZfFO6W%2BRAdsw4pxiG5YY%3D" alt="">
+                    <h3>Hot Dog Tradicional</h3>
+                    <span class="preco01">R$ 19,90</span>
+                    <a href=""><span class="buttom-buy01">ADICIONAR AO CARRINHO</span></a>
+                </section>
 
-            <section>
-                <img class="img-produto " src="https://sdmntprwestus.oaiusercontent.com/files/00000000-4578-6230-9f47-e86c7bd9e588/raw?se=2025-08-19T22%3A40%3A03Z&sp=r&sv=2024-08-04&sr=b&scid=b396def0-11da-5af7-a568-8a2a92350b73&skoid=ea1de0bc-0467-43d6-873a-9a5cf0a9f835&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-19T20%3A15%3A43Z&ske=2025-08-20T20%3A15%3A43Z&sks=b&skv=2024-08-04&sig=5RpX8j%2BLM/y764pFBTDKzmYgJKbUeoDGDJ6o289j0HY%3D" alt="">
-                <h3>Hot Dog Tradicional</h3>
-                <span class="preco01">R$ 19,90</span>
-                <a href=""><span class="buttom-buy01">ADICIONAR AO CARRINHO</span></a>
-            </section>
+                <section>
+                    <img class="img-produto " src="http://sdmntprwestus.oaiusercontent.com/files/00000000-4578-6230-9f47-e86c7bd9e588/raw?se=2025-08-20T23%3A14%3A49Z&sp=r&sv=2024-08-04&sr=b&scid=f3e5f089-9401-5ffb-8186-853f27112baf&skoid=e9d2f8b1-028a-4cff-8eb1-d0e66fbefcca&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-20T21%3A14%3A34Z&ske=2025-08-21T21%3A14%3A34Z&sks=b&skv=2024-08-04&sig=ntiJCioueoewJIKesbORe6qZfFO6W%2BRAdsw4pxiG5YY%3D" alt="">
+                    <h3>Hot Dog Tradicional</h3>
+                    <span class="preco01">R$ 19,90</span>
+                    <a href=""><span class="buttom-buy01">ADICIONAR AO CARRINHO</span></a>
+                </section>
 
-            <section class="promocao">
-                <img class="img-produto " src="https://sdmntprwestus.oaiusercontent.com/files/00000000-4578-6230-9f47-e86c7bd9e588/raw?se=2025-08-19T22%3A40%3A03Z&sp=r&sv=2024-08-04&sr=b&scid=b396def0-11da-5af7-a568-8a2a92350b73&skoid=ea1de0bc-0467-43d6-873a-9a5cf0a9f835&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-19T20%3A15%3A43Z&ske=2025-08-20T20%3A15%3A43Z&sks=b&skv=2024-08-04&sig=5RpX8j%2BLM/y764pFBTDKzmYgJKbUeoDGDJ6o289j0HY%3D" alt="">
-                <h3>Hot Dog Tradicional</h3>
-                <span></span><span class="preco01">R$ 19,90</span>
-                <a href=""><span class="buttom-buy01">ADICIONAR AO CARRINHO</span></a>
-            </section>
-            
-            <section class="promocao">
-                <img class="img-produto " src="https://sdmntprwestus.oaiusercontent.com/files/00000000-4578-6230-9f47-e86c7bd9e588/raw?se=2025-08-19T22%3A40%3A03Z&sp=r&sv=2024-08-04&sr=b&scid=b396def0-11da-5af7-a568-8a2a92350b73&skoid=ea1de0bc-0467-43d6-873a-9a5cf0a9f835&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-19T20%3A15%3A43Z&ske=2025-08-20T20%3A15%3A43Z&sks=b&skv=2024-08-04&sig=5RpX8j%2BLM/y764pFBTDKzmYgJKbUeoDGDJ6o289j0HY%3D" alt="">
-                <h3>Hot Dog Tradicional</h3>
-                <span></span><span class="preco01">R$ 19,90</span>
-                <a href=""><span class="buttom-buy01">ADICIONAR AO CARRINHO</span></a>
-            </section>
-
+                <section class="promocao">
+                    <img class="img-produto " src="http://sdmntprwestus.oaiusercontent.com/files/00000000-4578-6230-9f47-e86c7bd9e588/raw?se=2025-08-20T23%3A14%3A49Z&sp=r&sv=2024-08-04&sr=b&scid=f3e5f089-9401-5ffb-8186-853f27112baf&skoid=e9d2f8b1-028a-4cff-8eb1-d0e66fbefcca&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-20T21%3A14%3A34Z&ske=2025-08-21T21%3A14%3A34Z&sks=b&skv=2024-08-04&sig=ntiJCioueoewJIKesbORe6qZfFO6W%2BRAdsw4pxiG5YY%3D" alt="">
+                    <h3>Hot Dog Tradicional</h3>
+                    <span></span><span class="preco01">R$ 19,90</span>
+                    <a href=""><span class="buttom-buy01">ADICIONAR AO CARRINHO</span></a>
+                </section>
+                
+                <section class="promocao">
+                    <img class="img-produto " src="http://sdmntprwestus.oaiusercontent.com/files/00000000-4578-6230-9f47-e86c7bd9e588/raw?se=2025-08-20T23%3A14%3A49Z&sp=r&sv=2024-08-04&sr=b&scid=f3e5f089-9401-5ffb-8186-853f27112baf&skoid=e9d2f8b1-028a-4cff-8eb1-d0e66fbefcca&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-20T21%3A14%3A34Z&ske=2025-08-21T21%3A14%3A34Z&sks=b&skv=2024-08-04&sig=ntiJCioueoewJIKesbORe6qZfFO6W%2BRAdsw4pxiG5YY%3D" alt="">
+                    <h3>Hot Dog Tradicional</h3>
+                    <span></span><span class="preco01">R$ 19,90</span>
+                    <a href=""><span class="buttom-buy01">ADICIONAR AO CARRINHO</span></a>
+                </section>
+            </div>
         </div>
 
         <div class="socialmidia">
             <div class="sobre-nos-container">
-                <img class="img-sobre-nos" src="https://sdmntprwestus.oaiusercontent.com/files/00000000-4578-6230-9f47-e86c7bd9e588/raw?se=2025-08-19T22%3A40%3A03Z&sp=r&sv=2024-08-04&sr=b&scid=b396def0-11da-5af7-a568-8a2a92350b73&skoid=ea1de0bc-0467-43d6-873a-9a5cf0a9f835&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-19T20%3A15%3A43Z&ske=2025-08-20T20%3A15%3A43Z&sks=b&skv=2024-08-04&sig=5RpX8j%2BLM/y764pFBTDKzmYgJKbUeoDGDJ6o289j0HY%3D" alt="">
+                <img class="img-sobre-nos" src="http://sdmntprwestus.oaiusercontent.com/files/00000000-4578-6230-9f47-e86c7bd9e588/raw?se=2025-08-20T23%3A14%3A49Z&sp=r&sv=2024-08-04&sr=b&scid=f3e5f089-9401-5ffb-8186-853f27112baf&skoid=e9d2f8b1-028a-4cff-8eb1-d0e66fbefcca&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-20T21%3A14%3A34Z&ske=2025-08-21T21%3A14%3A34Z&sks=b&skv=2024-08-04&sig=ntiJCioueoewJIKesbORe6qZfFO6W%2BRAdsw4pxiG5YY%3D" alt="">
                 <div class="texto-sobre-nos">
                     <h2>SOBRE NÓS</h2>
                     <p>Nossa lanchonete nasceu com o propósito de trazer o verdadeiro sabor do cachorro-quente brasileiro. Trabalhamos com ingredientes frescos e muito carinho no preparo, para que cada mordida seja uma experiência única. Mais do que lanches, oferecemos momentos de sabor e alegria.</p>
@@ -296,24 +374,55 @@
                 <h2>CONTATE-NOS</h2>
                 <div class="redes-sociais">
                     <div class="social-item">
-                        <img class="icon-sobre-nos" src="https://sdmntprwestus.oaiusercontent.com/files/00000000-4578-6230-9f47-e86c7bd9e588/raw?se=2025-08-19T22%3A40%3A03Z&sp=r&sv=2024-08-04&sr=b&scid=b396def0-11da-5af7-a568-8a2a92350b73&skoid=ea1de0bc-0467-43d6-873a-9a5cf0a9f835&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-19T20%3A15%3A43Z&ske=2025-08-20T20%3A15%3A43Z&sks=b&skv=2024-08-04&sig=5RpX8j%2BLM/y764pFBTDKzmYgJKbUeoDGDJ6o289j0HY%3D" alt="">
-                        <p>redesocial</p>
+                        <a href=""><img  src="http://sdmntprwestus.oaiusercontent.com/files/00000000-4578-6230-9f47-e86c7bd9e588/raw?se=2025-08-20T23%3A14%3A49Z&sp=r&sv=2024-08-04&sr=b&scid=f3e5f089-9401-5ffb-8186-853f27112baf&skoid=e9d2f8b1-028a-4cff-8eb1-d0e66fbefcca&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-20T21%3A14%3A34Z&ske=2025-08-21T21%3A14%3A34Z&sks=b&skv=2024-08-04&sig=ntiJCioueoewJIKesbORe6qZfFO6W%2BRAdsw4pxiG5YY%3D" alt=""></a>
+
                     </div>
                     
                     <div class="social-item">
-                        <img class="icon-sobre-nos" src="https://sdmntprwestus.oaiusercontent.com/files/00000000-4578-6230-9f47-e86c7bd9e588/raw?se=2025-08-19T22%3A40%3A03Z&sp=r&sv=2024-08-04&sr=b&scid=b396def0-11da-5af7-a568-8a2a92350b73&skoid=ea1de0bc-0467-43d6-873a-9a5cf0a9f835&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-19T20%3A15%3A43Z&ske=2025-08-20T20%3A15%3A43Z&sks=b&skv=2024-08-04&sig=5RpX8j%2BLM/y764pFBTDKzmYgJKbUeoDGDJ6o289j0HY%3D" alt="">
-                        <p>redesocial</p>
+                        <a href=""><img  src="http://sdmntprwestus.oaiusercontent.com/files/00000000-4578-6230-9f47-e86c7bd9e588/raw?se=2025-08-20T23%3A14%3A49Z&sp=r&sv=2024-08-04&sr=b&scid=f3e5f089-9401-5ffb-8186-853f27112baf&skoid=e9d2f8b1-028a-4cff-8eb1-d0e66fbefcca&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-20T21%3A14%3A34Z&ske=2025-08-21T21%3A14%3A34Z&sks=b&skv=2024-08-04&sig=ntiJCioueoewJIKesbORe6qZfFO6W%2BRAdsw4pxiG5YY%3D" alt=""></a>
+
                     </div>
 
                     <div class="social-item">
-                        <img class="icon-sobre-nos" src="https://sdmntprwestus.oaiusercontent.com/files/00000000-4578-6230-9f47-e86c7bd9e588/raw?se=2025-08-19T22%3A40%3A03Z&sp=r&sv=2024-08-04&sr=b&scid=b396def0-11da-5af7-a568-8a2a92350b73&skoid=ea1de0bc-0467-43d6-873a-9a5cf0a9f835&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-19T20%3A15%3A43Z&ske=2025-08-20T20%3A15%3A43Z&sks=b&skv=2024-08-04&sig=5RpX8j%2BLM/y764pFBTDKzmYgJKbUeoDGDJ6o289j0HY%3D" alt="">
-                        <p>redesocial</p>
+                        <a href=""><img  src="http://sdmntprwestus.oaiusercontent.com/files/00000000-4578-6230-9f47-e86c7bd9e588/raw?se=2025-08-20T23%3A14%3A49Z&sp=r&sv=2024-08-04&sr=b&scid=f3e5f089-9401-5ffb-8186-853f27112baf&skoid=e9d2f8b1-028a-4cff-8eb1-d0e66fbefcca&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-20T21%3A14%3A34Z&ske=2025-08-21T21%3A14%3A34Z&sks=b&skv=2024-08-04&sig=ntiJCioueoewJIKesbORe6qZfFO6W%2BRAdsw4pxiG5YY%3D" alt=""></a>
+
                     </div>
                 </div>
             </div>
         </div>
     </main>
-    </main>
+
 </body>
-<footer></footer>
+<footer>
+     <div class="footer-container">
+        <div class="footer-section">
+            <h3>DOGÃO DO IVO</h3>
+            <p>O melhor hot dog da cidade. <br> Sabor, qualidade e paixão em cada mordida.</p>
+        </div>
+        <div class="footer-section">
+            <h3>Links Rápidos</h3>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Cardápio</a></li>
+                <li><a href="#">Sobre Nós</a></li>
+                <li><a href="#">Fale Conosco</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Contato</h3>
+            <p>Rua Hugo Negrini, XXXX</p>
+            <p>Araracity - SP</p>
+            <p>Telefone: (16) 98765-4321</p>
+        </div>
+        <div class="footer-section">
+            <h3>Condecorações</h3>
+            <div class="social-icons">
+                <span>Agradeço ao Professor Ivo pelo desafio do DOGÃO</span>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2025 Dogão do Ivo. Todos os direitos reservados.</p>
+    </div>
+</footer>
 </html>
