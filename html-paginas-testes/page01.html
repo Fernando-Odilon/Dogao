@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seu Carrinho - Dogão do Ivo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a href="index.html">
+                <img src="img/logo-negativa.png" alt="Logo Dogão do Ivo" class="nav-logo">
+            </a>
+            <div class="nav-links">
+                <a href="index.html" class="buttom-nav">INÍCIO</a>
+                <a href="cardapio.html" class="buttom-nav">CARDÁPIO</a>
+                <a href="fale-conosco.html" class="buttom-nav">FALE CONOSCO</a>
+                <a href="sobre-nos.html" class="buttom-nav">SOBRE NÓS</a>
+            </div>
+            <a href="carrinho.html" class="pecaja-navbar">
+                <span>VER CARRINHO</span>
+                <img src="img/carrinho-icon.png" alt="Ícone de Carrinho" class="img02">
+            </a>
+        </nav>
+    </header>
+
+    <main class="carrinho-main">
+        <h2>Seu Carrinho</h2>
+        <div class="carrinho-container">
+            <div class="carrinho-item">
+                <img src="img/ivo.jpg" alt="Hot Dog do Ivo" class="carrinho-item-img">
+                <div class="carrinho-item-detalhes">
+                    <h3>Hot Dog do Ivo</h3>
+                    <p class="carrinho-item-preco">R$ 29,90</p>
+                    <div class="quantidade-controle">
+                        <label for="quantidade-item1">Quantidade:</label>
+                        <input type="number" id="quantidade-item1" value="1" min="1">
+                    </div>
+                </div>
+            </div>
+
+            <div class="carrinho-item">
+                <img src="img/cheddar.jpg" alt="Hot Dog Cheddar" class="carrinho-item-img">
+                <div class="carrinho-item-detalhes">
+                    <h3>Hot Dog Cheddar</h3>
+                    <p class="carrinho-item-preco">R$ 19,90</p>
+                    <div class="quantidade-controle">
+                        <label for="quantidade-item2">Quantidade:</label>
+                        <input type="number" id="quantidade-item2" value="1" min="1">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="resumo-compra">
+            <h3>Resumo da Compra</h3>
+            <div class="total-linha">
+                <span>Subtotal:</span>
+                <span id="subtotal">R$ 49,80</span>
+            </div>
+            <div class="total-linha total-final">
+                <span>Total:</span>
+                <span id="total">R$ 49,80</span>
+            </div>
+            <a href="#" class="botao-finalizar">Finalizar Compra</a>
+        </div>
+    </main>
+
+    <footer class="socialmidia">
+        </footer>
+
+</body>
+</html>

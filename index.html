@@ -5,25 +5,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dogão do Ivo</title>
-    <link rel="stylesheet" href="https://sdmntprwestus.oaiusercontent.com/files/00000000-d004-6230-a00e-494e101ed5bc/raw?se=2025-08-19T03%3A03%3A32Z&sp=r&sv=2024-08-04&sr=b&scid=38705e2e-7d5d-5c0d-9f02-8f4f8f9963b3&skoid=789f404f-91a9-4b2f-932c-c44965c11d82&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-18T21%3A16%3A21Z&ske=2025-08-19T21%3A16%3A21Z&sks=b&skv=2024-08-04&sig=OT1luhoReyox91vj8Bvub7pTWOpESB62Rvp1v2rOoJI%3D">
-    <link rel="stylesheet" href="http://sdmntprwestus.oaiusercontent.com/files/00000000-4578-6230-9f47-e86c7bd9e588/raw?se=2025-08-20T23%3A14%3A49Z&sp=r&sv=2024-08-04&sr=b&scid=f3e5f089-9401-5ffb-8186-853f27112baf&skoid=e9d2f8b1-028a-4cff-8eb1-d0e66fbefcca&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-20T21%3A14%3A34Z&ske=2025-08-21T21%3A14%3A34Z&sks=b&skv=2024-08-04&sig=ntiJCioueoewJIKesbORe6qZfFO6W%2BRAdsw4pxiG5YY%3D">
+    <link rel="stylesheet" href="style.css">
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
         nav{background-color:#C13021;
             width: 100%;
             height: 50px;
             display: flex;
             align-items: center;
-            justify-content: center;
             margin-top: 0px;
             margin-bottom: 0px;
-;
+            gap: 70px;
+            padding-left: 20px;
+        }
+
+
+        nav img{
+            width: 70px;
+        }
+
+        nav .img02{
+            width: 30px;
+            height: 30px;
+            margin-left: 25px;
+        }
+
+        .pecaja-navbar{
+            display: flex;
+            flex-direction: row;
+            font-family: "Roboto";
+            color: black;
+            font-size: 20px;
+            width: 320px;
+            height: 35px;
+            padding-left: 20px;
+            line-height: 80px;
+            background-color: #FFF7ED;
+            align-items: center;
+            margin-right: 30px;
+            border-radius: 10px;
+            font-weight: bold;
+        }
+        
+        
+        .buttoms-navbar{
+            display: flex;
+            align-items: center;
+            gap: 200px;
         }
         .buttom-nav{color: aliceblue;
             font-weight: bold;
             width: 100%;
             height: 100%;
-            margin-right: 70px;
-            margin-left: 70px;
             margin-top: 0px;
             margin-bottom: 0px;
             font-family: "Roboto";
@@ -39,7 +72,6 @@
         .fundo02{background-color: #FFF8EE;
             display: flex;
             flex-wrap: wrap;            
-            padding-left: 30px;
             padding-bottom: 40px;
             
         }
@@ -119,6 +151,7 @@
             justify-content: center;
             line-height: 40px;
             border-radius: 10px;
+            font-weight: bold;
 
         }
 
@@ -138,22 +171,56 @@
             border-style: solid;
             border-width: 2px;
             box-shadow: 5px 8px 8px rgba(0, 0, 0, 0.15);
-            
             }
+
+        .simples{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
         
+
+        .container-promocao{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px
+        }
         .promocao{display: flex;
             width: 340px;
             height: 500px;
         }
+
+
+        .promocao h3{
+            font-size: 26px;
+        }
         .promocao .img-produto{width: 320px;
         }
 
-        .promocao .buttom-buy01{width: 320px;
-            height: 70px;
+        .promocao .buttom-buy01{width: 300px;
+            height: 60px;
             border-radius: 20px;
-            font-size: 25px;
-            line-height: 70px;
+            font-size: 23px;
+            line-height: 60px;
             font-weight: bold;
+        }
+
+        .precos-promocao{
+            font-family: "Roboto";
+            font-size: 24px;
+            margin-bottom: 15px;
+            font-weight: bold;
+            color: black;
+        }
+
+        .cortado{
+            font-size: 20px;
+            text-decoration: line-through;
+            color: #C13021;
         }
         .socialmidia {background-color:#C13021;
             color: #FFF7ED;
@@ -188,17 +255,14 @@
         }
         .texto-sobre-nos p{width: 350px;
             font-size: 20px;
+            display: flex;
+            flex-wrap: wrap;
         }
 
 
-        .texto-sobre-nos h2{
-            font-size: 30px;
-            margin-bottom: 0;
-            display: inline;
-            margin: 0;
-        }
         .contato-container {
             display: flex;
+            font-family: "Roboto";
             flex-direction: column;
             align-items: center;
             width: 30%;
@@ -216,14 +280,26 @@
         
         .contato-container h2{
             margin: 10px;
+            font-size: 30px;
+            margin-bottom: 0;
             display: inline;
+            margin: 0;
 
         }
         .redes-sociais img{width: 80px;
         }
 
         .fundo02 h2{font-family: "Roboto";
+            display: flex;
             font-size: 30px;
+            margin-left: 50px;
+            background-color: #F6AF30;
+            width: 195px;
+            height: 45px;
+            line-height: 45px;
+            justify-content: center;
+            border-radius: 10px;
+            color:#5F371E;
         }
 
         body{padding: 0;
@@ -266,13 +342,15 @@
         }
 
         .footer-section ul {
-            list-style: none;
-            padding: 0;
+            list-style: circle;
+            padding-left: 20px;
             margin: 0;
         }
 
         .footer-section li {
             margin-bottom: 10px;
+            font-weight: bold;
+            
         }
 
         .social-icons a img {
@@ -287,6 +365,11 @@
             padding-top: 20px;
             margin-top: 20px;
         }
+
+
+        .footer-bottom img{
+            width: 150px;
+        }
     </style>
 </head>
 
@@ -297,73 +380,89 @@
         <nav>
             
             <!-- Icone -->
-            <img src="" alt="">
-            <a href=""><span class="buttom-nav">INICIO</span></a>
-            <a href=""><span class="buttom-nav">CARDÁPIO</span></a>
-            <a href=""><span class="buttom-nav">FALE CONOSCO</span></a>
-        
+            <img src="img/logo-negativa.png" alt="">
+            <div class="buttoms-navbar">
+                <a href=""><span class="buttom-nav">INICIO</span></a>
+                <a href=""><span class="buttom-nav">CARDÁPIO</span></a>
+                <a href=""><span class="buttom-nav">FALE CONOSCO</span></a>
+                <a href=""><span class="buttom-nav">SOBRE NÓS</span></a>
+            </div>
+            
+                <a href=""><div class="pecaja-navbar"><span>PEÇA JÁ PELO WHATSAPP</span>
+                <img class="img02" src="img/Whatsapp2.png" alt="">
+            </div></a>
+                
         </nav>
     </header>
     
     <main>
         <div class="container-principal">
-            <img class="img-tela-inicial" src="https://sdmntprwestus.oaiusercontent.com/files/00000000-d004-6230-a00e-494e101ed5bc/raw?se=2025-08-20T23%3A14%3A50Z&sp=r&sv=2024-08-04&sr=b&scid=a1690133-ed75-535c-b19f-f3f8c42e31be&skoid=e9d2f8b1-028a-4cff-8eb1-d0e66fbefcca&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-20T14%3A49%3A09Z&ske=2025-08-21T14%3A49%3A09Z&sks=b&skv=2024-08-04&sig=bQuFSffuB1XbJ3lBvpB2AXum%2BjkIkeAIxqs2uAgUZTY%3D" alt="">
+            <img class="img-tela-inicial" src="img/painel-incial.png" alt="">
             <h1 class="title">OS MELHORES <br> HOT DOGS <br> DA CIDADE</h1>
             <a href=""><span class="buttom-header">FAZER PEDIDO AGORA</span></a>
         </div>
         <!-- Imagem do Cachorro quente-->
-             
         <div class="fundo02">
             <h2>CARDÁPIO</h2>
-            <div class="fundo02">
+            <div class="simples">
                 <section>
-                    
-                    <img class="img-produto " src="http://sdmntprwestus.oaiusercontent.com/files/00000000-4578-6230-9f47-e86c7bd9e588/raw?se=2025-08-20T23%3A14%3A49Z&sp=r&sv=2024-08-04&sr=b&scid=f3e5f089-9401-5ffb-8186-853f27112baf&skoid=e9d2f8b1-028a-4cff-8eb1-d0e66fbefcca&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-20T21%3A14%3A34Z&ske=2025-08-21T21%3A14%3A34Z&sks=b&skv=2024-08-04&sig=ntiJCioueoewJIKesbORe6qZfFO6W%2BRAdsw4pxiG5YY%3D" alt="">
-                    <h3>Dog Tradicional</h3>
-                    <span class="preco01">R$ 15,90</span>
+                    <img class="img-produto " src="img/americano.jpg" alt="">
+                    <h3>Dog USA</h3>
+                    <span class="preco01">R$ 11,90</span>
                     <a href=""><span class="buttom-buy01">ADICIONAR AO CARRINHO</span></a>
                 </section>
                 
                 <section>
-                    <img class="img-produto " src="http://sdmntprwestus.oaiusercontent.com/files/00000000-4578-6230-9f47-e86c7bd9e588/raw?se=2025-08-20T23%3A14%3A49Z&sp=r&sv=2024-08-04&sr=b&scid=f3e5f089-9401-5ffb-8186-853f27112baf&skoid=e9d2f8b1-028a-4cff-8eb1-d0e66fbefcca&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-20T21%3A14%3A34Z&ske=2025-08-21T21%3A14%3A34Z&sks=b&skv=2024-08-04&sig=ntiJCioueoewJIKesbORe6qZfFO6W%2BRAdsw4pxiG5YY%3D" alt="">
-                    <h3>Hot Dog Tradicional</h3>
-                    <span class="preco01">R$ 19,90</span>
+                    <img class="img-produto " src="img/bacon.jpg" alt="">
+                    <h3>Hot Dog BACON</h3>
+                    <span class="preco01">R$ 22,50</span>
                     <a href=""><span class="buttom-buy01">ADICIONAR AO CARRINHO</span></a>
                 </section>
 
                 <section>
-                    <img class="img-produto " src="http://sdmntprwestus.oaiusercontent.com/files/00000000-4578-6230-9f47-e86c7bd9e588/raw?se=2025-08-20T23%3A14%3A49Z&sp=r&sv=2024-08-04&sr=b&scid=f3e5f089-9401-5ffb-8186-853f27112baf&skoid=e9d2f8b1-028a-4cff-8eb1-d0e66fbefcca&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-20T21%3A14%3A34Z&ske=2025-08-21T21%3A14%3A34Z&sks=b&skv=2024-08-04&sig=ntiJCioueoewJIKesbORe6qZfFO6W%2BRAdsw4pxiG5YY%3D" alt="">
-                    <h3>Hot Dog Tradicional</h3>
-                    <span class="preco01">R$ 19,90</span>
+                    <img class="img-produto " src="img/buraco-quente.jpg" alt="">
+                    <h3>Buraco Quente</h3>
+                    <span class="preco01">R$ 10,99</span>
                     <a href=""><span class="buttom-buy01">ADICIONAR AO CARRINHO</span></a>
                 </section>
 
                 <section>
-                    <img class="img-produto " src="http://sdmntprwestus.oaiusercontent.com/files/00000000-4578-6230-9f47-e86c7bd9e588/raw?se=2025-08-20T23%3A14%3A49Z&sp=r&sv=2024-08-04&sr=b&scid=f3e5f089-9401-5ffb-8186-853f27112baf&skoid=e9d2f8b1-028a-4cff-8eb1-d0e66fbefcca&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-20T21%3A14%3A34Z&ske=2025-08-21T21%3A14%3A34Z&sks=b&skv=2024-08-04&sig=ntiJCioueoewJIKesbORe6qZfFO6W%2BRAdsw4pxiG5YY%3D" alt="">
-                    <h3>Hot Dog Tradicional</h3>
+                    <img class="img-produto " src="img/cheddar.jpg" alt="">
+                    <h3>Hot Dog Cheddar</h3>
                     <span class="preco01">R$ 19,90</span>
                     <a href=""><span class="buttom-buy01">ADICIONAR AO CARRINHO</span></a>
                 </section>
+            </div>
 
+            <h2>PROMOÇÕES</h2>
+            <div class="container-promocao">    
                 <section class="promocao">
-                    <img class="img-produto " src="http://sdmntprwestus.oaiusercontent.com/files/00000000-4578-6230-9f47-e86c7bd9e588/raw?se=2025-08-20T23%3A14%3A49Z&sp=r&sv=2024-08-04&sr=b&scid=f3e5f089-9401-5ffb-8186-853f27112baf&skoid=e9d2f8b1-028a-4cff-8eb1-d0e66fbefcca&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-20T21%3A14%3A34Z&ske=2025-08-21T21%3A14%3A34Z&sks=b&skv=2024-08-04&sig=ntiJCioueoewJIKesbORe6qZfFO6W%2BRAdsw4pxiG5YY%3D" alt="">
-                    <h3>Hot Dog Tradicional</h3>
-                    <span></span><span class="preco01">R$ 19,90</span>
+                    <img class="img-produto " src="img/tudo.jpg" alt="">
+                    <h3>Hot Dog Tudo</h3>
+                    <div class="precos-promocao"><span class="cortado">R$ 30,10</span> <span>R$ 25,90</span></div>
                     <a href=""><span class="buttom-buy01">ADICIONAR AO CARRINHO</span></a>
                 </section>
                 
                 <section class="promocao">
-                    <img class="img-produto " src="http://sdmntprwestus.oaiusercontent.com/files/00000000-4578-6230-9f47-e86c7bd9e588/raw?se=2025-08-20T23%3A14%3A49Z&sp=r&sv=2024-08-04&sr=b&scid=f3e5f089-9401-5ffb-8186-853f27112baf&skoid=e9d2f8b1-028a-4cff-8eb1-d0e66fbefcca&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-20T21%3A14%3A34Z&ske=2025-08-21T21%3A14%3A34Z&sks=b&skv=2024-08-04&sig=ntiJCioueoewJIKesbORe6qZfFO6W%2BRAdsw4pxiG5YY%3D" alt="">
-                    <h3>Hot Dog Tradicional</h3>
-                    <span></span><span class="preco01">R$ 19,90</span>
+                    <img class="img-produto " src="img/catupiry.jpg" alt="">
+                    <h3>Hot Dog Catupiry</h3>
+                    <div class="precos-promocao"><span class="cortado">R$ 27,70</span> <span>R$ 19,90</span></div>
+                    <a href=""><span class="buttom-buy01">ADICIONAR AO CARRINHO</span></a>
+                </section>
+
+                <section class="promocao">
+                    <img class="img-produto " src="img/ivo.jpg" alt="">
+                    <h3>Hot Dog do Ivo</h3>
+                    <div class="precos-promocao"><span class="cortado">R$ 33,00</span> <span>R$ 29,90</span></div>
                     <a href=""><span class="buttom-buy01">ADICIONAR AO CARRINHO</span></a>
                 </section>
             </div>
         </div>
+    </div>
 
         <div class="socialmidia">
             <div class="sobre-nos-container">
-                <img class="img-sobre-nos" src="http://sdmntprwestus.oaiusercontent.com/files/00000000-4578-6230-9f47-e86c7bd9e588/raw?se=2025-08-20T23%3A14%3A49Z&sp=r&sv=2024-08-04&sr=b&scid=f3e5f089-9401-5ffb-8186-853f27112baf&skoid=e9d2f8b1-028a-4cff-8eb1-d0e66fbefcca&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-20T21%3A14%3A34Z&ske=2025-08-21T21%3A14%3A34Z&sks=b&skv=2024-08-04&sig=ntiJCioueoewJIKesbORe6qZfFO6W%2BRAdsw4pxiG5YY%3D" alt="">
+                <img class="img-sobre-nos" src="img/trabalhadores.png" alt="">
                 <div class="texto-sobre-nos">
                     <h2>SOBRE NÓS</h2>
                     <p>Nossa lanchonete nasceu com o propósito de trazer o verdadeiro sabor do cachorro-quente brasileiro. Trabalhamos com ingredientes frescos e muito carinho no preparo, para que cada mordida seja uma experiência única. Mais do que lanches, oferecemos momentos de sabor e alegria.</p>
@@ -374,17 +473,17 @@
                 <h2>CONTATE-NOS</h2>
                 <div class="redes-sociais">
                     <div class="social-item">
-                        <a href=""><img  src="http://sdmntprwestus.oaiusercontent.com/files/00000000-4578-6230-9f47-e86c7bd9e588/raw?se=2025-08-20T23%3A14%3A49Z&sp=r&sv=2024-08-04&sr=b&scid=f3e5f089-9401-5ffb-8186-853f27112baf&skoid=e9d2f8b1-028a-4cff-8eb1-d0e66fbefcca&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-20T21%3A14%3A34Z&ske=2025-08-21T21%3A14%3A34Z&sks=b&skv=2024-08-04&sig=ntiJCioueoewJIKesbORe6qZfFO6W%2BRAdsw4pxiG5YY%3D" alt=""></a>
+                        <a href=""><img  src="img/whatsapp.png" alt="Whatsapp"></a>
 
                     </div>
                     
                     <div class="social-item">
-                        <a href=""><img  src="http://sdmntprwestus.oaiusercontent.com/files/00000000-4578-6230-9f47-e86c7bd9e588/raw?se=2025-08-20T23%3A14%3A49Z&sp=r&sv=2024-08-04&sr=b&scid=f3e5f089-9401-5ffb-8186-853f27112baf&skoid=e9d2f8b1-028a-4cff-8eb1-d0e66fbefcca&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-20T21%3A14%3A34Z&ske=2025-08-21T21%3A14%3A34Z&sks=b&skv=2024-08-04&sig=ntiJCioueoewJIKesbORe6qZfFO6W%2BRAdsw4pxiG5YY%3D" alt=""></a>
+                        <a href=""><img  src="img/instagram.png" alt="Instagrm"></a>
 
                     </div>
 
                     <div class="social-item">
-                        <a href=""><img  src="http://sdmntprwestus.oaiusercontent.com/files/00000000-4578-6230-9f47-e86c7bd9e588/raw?se=2025-08-20T23%3A14%3A49Z&sp=r&sv=2024-08-04&sr=b&scid=f3e5f089-9401-5ffb-8186-853f27112baf&skoid=e9d2f8b1-028a-4cff-8eb1-d0e66fbefcca&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-20T21%3A14%3A34Z&ske=2025-08-21T21%3A14%3A34Z&sks=b&skv=2024-08-04&sig=ntiJCioueoewJIKesbORe6qZfFO6W%2BRAdsw4pxiG5YY%3D" alt=""></a>
+                        <a href=""><img  src="img/github.png" alt="Github"></a>
 
                     </div>
                 </div>
@@ -402,10 +501,10 @@
         <div class="footer-section">
             <h3>Links Rápidos</h3>
             <ul>
-                <li><a href="#">Início</a></li>
-                <li><a href="#">Cardápio</a></li>
-                <li><a href="#">Sobre Nós</a></li>
-                <li><a href="#">Fale Conosco</a></li>
+                <li><a href="#">INÍCIO</a></li>
+                <li><a href="#">CARDÁPIO</a></li>
+                <li><a href="#">SOBRE NÓS</S></a></li>
+                <li><a href="#">FALE CONOSCO</a></li>
             </ul>
         </div>
         <div class="footer-section">
@@ -417,12 +516,13 @@
         <div class="footer-section">
             <h3>Condecorações</h3>
             <div class="social-icons">
-                <span>Agradeço ao Professor Ivo pelo desafio do DOGÃO</span>
+                <p>Agradeço ao Professor Ivo pelo desafio do DOGÃO</p>
             </div>
         </div>
     </div>
     <div class="footer-bottom">
         <p>&copy; 2025 Dogão do Ivo. Todos os direitos reservados.</p>
+        <img src="img/logo-negativa.png" alt="">
     </div>
 </footer>
 </html>
